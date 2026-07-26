@@ -1,0 +1,26 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Jupyter
+.virtual_documents/
+
+# OS
+.DS_Store
+
+# Raw data files over 50MB: git has no built-in size-based ignore rule, so large raw
+# downloads should be added here by name if/when they exceed 50MB rather than committed
+# (they can always be regenerated via notebooks/01_data_acquisition.ipynb).
+# Example: data/raw_full_elasticity_dump.csv
+
+# Model checkpoints over 100MB
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.pkl
+model_checkpoints/

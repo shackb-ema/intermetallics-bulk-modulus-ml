@@ -1,0 +1,19 @@
+name: intermetallics-bulk-modulus-ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - pymatgen
+      - matminer
+      - mp-api
+      - python-dotenv
